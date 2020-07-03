@@ -1,0 +1,11 @@
+version: "3"
+services:
+  hydro:
+    build: .
+    # entrypoint: ["/tini", "--"]
+    command: ["jupyter-notebook", "--allow-root", "--no-browser", "--port=8888"]
+    ports:
+      - 8888:8888
+    # environment:
+    #   # the value of `JUPYTER_TOKEN` in your environment will override `my_secret_token`
+    #   - JUPYTER_TOKEN=my_secret_token
