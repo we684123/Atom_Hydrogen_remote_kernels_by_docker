@@ -30,7 +30,7 @@ b7a93321b0bdd7e0ae4cf05044a8932feef11edafbcf4c6f
 [{
   "name": "Remote server",
   "options": {
-    "baseUrl": "http://example.com:8888"
+    "baseUrl": "http://127.0.0.1:8888"
   }
 }]
 ```
