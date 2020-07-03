@@ -5,11 +5,13 @@
 
 |核心(kernels)|支援的語言(Language)|
 |-------|:-----:|
-|magicpython|python3.7.6|
+|magicpython|python 3.7.6|
 |[tslab](https://github.com/yunabe/tslab)|TypeScript 3.9、JavaScript|
 # 安裝及使用
+注意! 請先裝好 [docker](https://docs.docker.com/desktop/)、[Atom](https://atom.io/)、[Hydrogen](https://github.com/nteract/hydrogen) 在來使用。    
 
 **安裝及使用**
+
 ```
 docker run -it -p 127.0.0.1:8888:8888 we684123/atom_hydrogen_remote_kernels
 ```
@@ -19,7 +21,7 @@ docker-compose up
 ```
 
 1. run 完之後會出現類似下圖的東西，請把 token 複製起來，等等會用到。    
-210e7f2eb592504779d00252d687e4ce92a472bbf3ff29d2    
+b7a93321b0bdd7e0ae4cf05044a8932feef11edafbcf4c6f    
 ![Imgur](https://imgur.com/uatWE6j.png)
 
 2. 打開 atom Settings -> packages -> Hydrogen 並在下面設定 kernel gateways     
