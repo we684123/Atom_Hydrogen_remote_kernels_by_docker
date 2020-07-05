@@ -3,10 +3,10 @@
 
 # 支援
 
-|核心(kernels)|支援的語言(Language)|
-|-------|:-----:|
-|magicpython|python 3.7.6|
-|[tslab](https://github.com/yunabe/tslab)|TypeScript 3.9、JavaScript|
+| 核心(kernels)                            |    支援的語言(Language)    |
+| ---------------------------------------- | :------------------------: |
+| magicpython                              |        python 3.8.3        |
+| [tslab](https://github.com/yunabe/tslab) | TypeScript 3.9、JavaScript |
 # 安裝及使用
 注意! 請先裝好 [docker](https://docs.docker.com/desktop/)、[Atom](https://atom.io/)、[Hydrogen](https://github.com/nteract/hydrogen) 在來使用。    
 
