@@ -4,13 +4,11 @@ MAINTAINER we684123
 
 
 RUN python -m pip install --upgrade pip 
-RUN  pip install notebook 
+RUN pip install notebook 
 RUN apt-get update
 RUN apt install npm -y
-RUN  npm install -g tslab 
-RUN  tslab install
+RUN npm install -g tslab 
 
-# ENV JUPYTER_TOKEN=my_secret_token
 
 FROM builder
 
