@@ -1,8 +1,10 @@
 # Atom_Hydrogen_remote_kernels_by_docker
 用 docker 打包 Jupyter 核心，並給 Atom Hydrogen 連結。    
 
-docker hub - 
-[we684123/atom_hydrogen_remote_kernels](https://hub.docker.com/repository/docker/we684123/atom_hydrogen_remote_kernels)
+docker hub -
+[we684123/atom_hydrogen_remote_kernels](https://hub.docker.com/repository/docker/we684123/atom_hydrogen_remote_kernels)    
+
+**如果需要，這裡有 [Atom Hydrogen 教學](https://blog.tdccc.com.tw/429/)**。    
 
 # 支援
 
