@@ -8,6 +8,7 @@ RUN pip install notebook
 RUN apt-get update
 RUN apt install npm -y
 RUN npm install -g tslab 
+RUN tslab install
 
 
 FROM builder
